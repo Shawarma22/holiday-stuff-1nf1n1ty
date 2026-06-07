@@ -11,13 +11,13 @@
 - Usually 2-4 bytes long
 
 ## Snapshots
-![ICEMAN Album Cover by Drake](./01.magic.bytes.jpeg)  
+![ICEMAN Album Cover by Drake](./assets/1.magic.bytes.jpeg)  
 - Using `xxd` on the above image gives the following output  
 ```
 xxd 01.magic.bytes.jpeg | head
 ```  
 - Piping `head` prints only the heading bytes  
-![Magic Bytes Output](./02.magic.bytes.jpeg)  
+![Magic Bytes Output](./assets/02.magic.bytes.jpeg)  
 - Confirmed it is `JPEG` format using [Gary Kessler's](http://www.garykessler.net/library/file_sigs.html) database  
-![Database Verification](./03.magic.bytes.jpeg)
+![Database Verification](./assets/03.magic.bytes.jpeg)
 

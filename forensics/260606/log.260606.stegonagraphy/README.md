@@ -12,20 +12,22 @@
 - The change in the original file is insignificant
 
 ## Snapshots
-![Original Image](./01.steganography.jpeg)
+![Original Image](./assets/01.steganography.jpeg)
 - Using `steghide` to inject and extract hidden data on the above image
 - To inject a payload:
 ```
 steghide embed -ef payload.txt -cf original.jpeg -sf classified.jpeg
-```
-
-![Original Image Metadata](./02.steganography.jpeg)
-![Classified Image Metadata](./03.steganography.jpeg)
-
+```  
 - To extract a payload:
 ```
 steghide extract -sf classified.jpeg
 ```
+![Showcase](./assets/04.steganography.jpeg)
 
-![Showcase](./04.steganography.jpeg)
+- Using `exiftool`, we can see both the images are similar in size
+![Original Image Metadata](./assets/02.steganography.jpeg)
+![Classified Image Metadata](./asset/03.steganography.jpeg)
+
+- Visually, both the images are impossible to distinguish
+![Classified Image](./assets/05.steganogrpahy.jpeg)
 
