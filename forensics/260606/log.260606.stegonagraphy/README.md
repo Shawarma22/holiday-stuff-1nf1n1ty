@@ -26,8 +26,8 @@ steghide extract -sf classified.jpeg
 
 - Using `exiftool`, we can see both the images are similar in size
 ![Original Image Metadata](./assets/02.steganography.jpeg)
-![Classified Image Metadata](./asset/03.steganography.jpeg)
+![Classified Image Metadata](./assets/03.steganography.jpeg)
 
 - Visually, both the images are impossible to distinguish
-![Classified Image](./assets/05.steganogrpahy.jpeg)
+![Classified Image](./assets/05.steganography.jpeg)
 
