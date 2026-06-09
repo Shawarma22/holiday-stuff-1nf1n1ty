@@ -11,7 +11,7 @@
 - Usually 2-4 bytes long
 
 ## Snapshots
-![ICEMAN Album Cover by Drake](./assets/1.magic.bytes.jpeg)  
+![ICEMAN Album Cover by Drake](./assets/01.magic.bytes.jpeg)  
 - Using `xxd` on the above image gives the following output  
 ```
 xxd 01.magic.bytes.jpeg | head
