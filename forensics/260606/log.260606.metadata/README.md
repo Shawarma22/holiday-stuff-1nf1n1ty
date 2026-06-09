@@ -17,7 +17,7 @@
 ## Snapshots
 ![Main Image](./assets/01.metadata.jpeg)
 - Running `exiftool` on the image gives the following output
-![Full Dump of Metadata](./assets/02.metadata)
+![Full Dump of Metadata](./assets/02.metadata.jpeg)
 - Clues are ususally hidden in the metadata
 - Adding a custom metadata is possible as a form of a comment or by existing metadata
 ```
